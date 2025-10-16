@@ -1,0 +1,71 @@
+{
+  "etiquetaIndex": "assets/emblema.png",
+  "eventos": [
+    {
+      "id": "ev-001",
+      "titulo": "Entrenamiento Semanal de Softcombat",
+      "fecha": "Cada sábado",
+      "fechaRaw": "2025-10-18",
+      "hora": "4:00 PM",
+      "categoria": "Próximo Evento",
+      "resumen": "Únete a los guerreros del Reino Edas en el entrenamiento semanal de softcombat en La Paz.",
+      "detalles": "Trae ropa cómoda y ganas de aprender. No necesitas experiencia. Nos reunimos cada sábado en la plaza principal de La Paz (frente al monumento a los héroes). El entrenamiento dura 2 horas y es completamente gratuito.\n\n¡Forja tu leyenda con nosotros!",
+      "imagenes": ["assets/eventos/entrenamiento.jpg"],
+      "showInBanner": true,
+      "activo": true,
+      "localizacion": {
+        "lat": -16.5000,
+        "lng": -68.1500
+      }
+    },
+    {
+      "id": "ev-002",
+      "titulo": "Torneo Nacional de Edas",
+      "fecha": "15 de noviembre de 2025",
+      "fechaRaw": "2025-11-15",
+      "hora": "9:00 AM",
+      "categoria": "Aviso Importante",
+      "resumen": "El gran torneo anual donde clanes de todo Bolivia compiten por la gloria.",
+      "detalles": "Inscripciones abiertas hasta el 1 de noviembre. Equipos de 3 a 5 personas. Premios en especie y trofeo del Rey Leomar.\n\nLugar: Parque Laikakota, La Paz.",
+      "imagenes": ["assets/eventos/torneo.jpg"],
+      "showInBanner": true,
+      "activo": true,
+      "localizacion": {
+        "lat": -16.5100,
+        "lng": -68.1300
+      }
+    }
+  ],
+  "galeria": [
+    {
+      "titulo": "Sir Kael el Implacable",
+      "personaje": "Maestro de Armas",
+      "fecha": "Año 12 del Reinado",
+      "descripcion": "Líder de los entrenamientos y campeón invicto del Torneo del Sol. Su espada nunca falla.",
+      "imagen": "assets/galeria/kael.jpg"
+    },
+    {
+      "titulo": "Dama Lyra de los Bosques",
+      "personaje": "Guardiana de las Leyendas",
+      "fecha": "Año 10 del Reinado",
+      "descripcion": "Cronista real y estratega. Sus consejos han salvado al reino en más de una batalla.",
+      "imagen": "assets/galeria/lyra.jpg"
+    }
+  ],
+  "multimedia": [
+    {
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "titulo": "Entrenamiento Real - Octubre 2025",
+      "fecha": "12 de octubre de 2025",
+      "descripcion": "Vea cómo los guerreros del Reino Edas perfeccionan su arte en las calles de La Paz."
+    },
+    {
+      "tipo": "imagen",
+      "url": "assets/multimedia/batalla.jpg",
+      "titulo": "Batalla Épica en el Festival Medieval",
+      "fecha": "5 de septiembre de 2025",
+      "descripcion": "Nuestros guerreros defendiendo el honor del reino frente a clanes rivales."
+    }
+  ]
+}
