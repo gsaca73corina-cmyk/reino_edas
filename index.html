@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REINO EDAS - Reino Medieval</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=Cinzel:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Splash Screen -->
+  <div class="splash-screen" id="splash-screen">
+    <img src="assets/emblema.png" alt="Emblema del Reino Edas" class="splash-emblem">
+    <h1 class="splash-logo">REINO EDAS</h1>
+    <p class="splash-subtitle">Donde la leyenda cobra vida</p>
+  </div>
+
+  <video class="background-video" autoplay muted loop playsinline preload="auto" poster="assets/fondo.png">
+    <source src="https://assets.mixkit.co/videos/preview/mixkit-misty-forest-with-sunlight-1197-large.mp4" type="video/mp4" />
+  </video>
+  <div class="overlay"></div>
+
+  <!-- News Banner -->
+  <div class="news-banner">
+    <i class="fas fa-bullhorn news-icon"></i>
+    <div class="news-text">
+      <span class="news-content">Cargando avisos...</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-logo" data-section="inicio">REINO EDAS</div>
+    <div class="nav-menu">
+      <div class="nav-link" data-section="historia">Historia</div>
+      <div class="nav-link" data-section="realeza">Realeza</div>
+      <div class="nav-link" data-section="eventos">Eventos</div>
+      <div class="nav-link" data-section="galeria">Leyendas</div>
+      <div class="nav-link" data-section="contacto">Contacto</div>
+    </div>
+    <button class="mobile-menu-btn" id="mobile-menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-nav-link" data-section="inicio">Inicio</div>
+    <div class="mobile-nav-link" data-section="historia">Historia</div>
+    <div class="mobile-nav-link" data-section="realeza">Realeza</div>
+    <div class="mobile-nav-link" data-section="eventos">Eventos</div>
+    <div class="mobile-nav-link" data-section="galeria">Leyendas</div>
+    <div class="mobile-nav-link" data-section="contacto">Contacto</div>
+  </div>
+
+  <main id="main-content"></main>
+
+  <footer>
+    <p class="footer-text">© 2024 REINO EDAS - Todos los derechos reservados</p>
+    <p class="footer-text">Tierra de leyendas y gloria eterna</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=100083038675338" target="_blank" class="social-link">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.tiktok.com/@reino_edas" target="_blank" class="social-link">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <img src="assets/fondo.png" alt="Caballero del Reino Edas" class="knight-decoration">
+
+  <!-- Scripts: orden correcto -->
+  <script src="data/eventos.js"></script>
+  <script src="data/galeria.js"></script>
+  <script src="data/multimedia.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
